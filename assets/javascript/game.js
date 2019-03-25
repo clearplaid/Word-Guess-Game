@@ -1,0 +1,1 @@
+var wordlist = ["Mario", "Yoshi", "Link", "Zelda", "Princess Peach", "Luigi", "Bowser", "Mega Man", "Samus", "Zero Suit Samus", "Cloud", "Tifa", "Ganondorf", "Pac-Man", "Sonic The Hedghog", "Donkey Kong", "Little Mac", "Toad", "Rosalina", "Toadette"] 

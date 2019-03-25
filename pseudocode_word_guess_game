@@ -1,0 +1,35 @@
+1. Problem: how to play the game?
+    Have output guiding user on what to do.
+	    ex: Press any key to get started
+		guess a letter to guess the word
+
+2. Problem: How does the user know how many letters in the word? What do they do then?
+    Need blank lines hiding the letters until guessed correctly symbolizing where the letters will go.
+            
+3. Problem: how does the Computer know how many characters are in the word for the blanks. How does it know 	which word to pick?
+    a. computer needs to know the length of the word to output blanks
+    b. computer needs to randomly choose a word that is stored in a collection or listed in some variable 
+
+4. Problem How does the computer know what letter is guessed?
+    User inputs a keystroke to guess a letter for the word. Letter needs to be saved in a variable until 	needed.
+
+5. Problem: What happens when correct letter is guessed?
+    a. Need to compare the input to all the letters in the word being guessed if correct all of that 
+    b. letter needs to be output or displayed to the screen in the proper part of the word.
+
+6. Problem: What happens when the wrong letter is guessed?
+    if the incorrect key is guessed that key is put into a guessed letter area so the user knows it was 	previously guessed. 
+       
+7. If a letter is guessed again should alert "already guessed" 
+
+8. Problem: How does the user know how many guesses they get and how many are left? 
+    a. need to have a count down of incorrect guesses remaining. 
+    b. If a letter is guessed incorrectly the counter decreases by 1. 
+    c. If a letter is guessed correctly nothing happens
+
+9. Problem: What happens when the user guesses the word correctly?
+    a. when the word is completed an image of the word needs to show on screen 
+    b. the countdown remaining needs to reset
+    c. a new word needs to output to where the last word was
+    d. a counter for games won should increment on screen 
+
