@@ -33,3 +33,52 @@
     c. a new word needs to output to where the last word was
     d. a counter for games won should increment on screen 
 
+
+
+var lives = 10
+var letters_picked = [], needed = []
+	letters_picked += current_pick
+if WrongLetter(current_pick, letters_picked, letters_needed)
+	lives--
+
+// variables
+word = "Link"
+lives = 10
+picked = []
+other_thing = 0
+
+bool all_letters_picked(picked, needed)
+{
+	// look through all letters in needed
+	// check if each one is in picked
+	// return true/false
+}
+
+while(true)
+{
+// Get input
+var letter = get_key()
+// Check if in word
+if letter in word:
+// if in word say yay
+	print("yay")
+else:
+// otherwise lose life
+	lives--
+
+// add letter to picked list
+picked += letter
+
+// check if should continue
+if all_letters_picked():
+	print(win)
+	break
+else if lives <= 0:
+	print(lose)
+	break
+else
+	other_thing++
+}
+
+
+
